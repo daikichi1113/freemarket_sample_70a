@@ -76,6 +76,8 @@ Things you may want to cover:
 |preparation_day|references|null: false, foreign_key: true|
 |buyer|references|null: false, foreign_key: true|
 |seller|references|null: false, foreign_key: true|
+|categorie|references|null: false, foreign_key: true|
+|brand|references|null: false, foreign_key: true|
 
 ### Assosiation
 - belongs_to :category
@@ -89,7 +91,6 @@ Things you may want to cover:
 ## categoriesテーブル
 |Column|Type|Options|
 |name|string|null: false|
-|item|references|null: false, foreign_key: true|
 
 ### Assosiation
 - has_many :items
@@ -97,7 +98,6 @@ Things you may want to cover:
 ## brandsテーブル
 |Column|Type|Options|
 |name|string|null: false|
-|item|references|null: false, foreign_key: true|
 
 ### Assosiation
 - has_many :items
