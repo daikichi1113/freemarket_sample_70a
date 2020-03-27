@@ -102,5 +102,3 @@
 
 ### Assosiation
 - belongs_to :item
-
-gem => 'active_hash',  'ancestry'
