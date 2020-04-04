@@ -5,7 +5,7 @@
 
 # 開発状況
 開 発 環 境：Ruby/Ruby on Rails/MySQL/Github/AWS/Visual Studio Code/haml&Scss<br>
-開 発 期 間：約4週間<br>
+開 発 期 間：約3.5週間<br>
 平均作業時間：約9時間<br>
 開 発 体 制：人数4名、アジャイル型開発（スクラム）、Trelloによるタスク管理
 
@@ -134,7 +134,17 @@ activehashというgemを使ってのプルダウン表示選択機能実装<br>
 モデルの設定（アソシエーション、バリデーション）
 
 # DEMO
+トップページ
 ![demo](https://raw.github.com/wiki/daikichi1113/freemarket_sample_70a/images/demo.gif)
+
+出品
+![demo](https://raw.github.com/wiki/daikichi1113/freemarket_sample_70a/images/demo2.gif)
+
+購入
+![demo](https://raw.github.com/wiki/daikichi1113/freemarket_sample_70a/images/demo3.gif)
+
+レスポンシブ
+![demo](https://raw.github.com/wiki/daikichi1113/freemarket_sample_70a/images/demo4.gif)
 
 # 開発を通じて得られた知見
 ## 工夫した点
