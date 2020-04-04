@@ -203,6 +203,7 @@ ul.category3{
     color: #ffffff;
   }
 }
+
 .header__box__navi__left__category{
   position: absolute;
   z-index: 5;
@@ -215,5 +216,28 @@ ul.category3{
         }
       }
     } 
+  }
+}
+
+#menuNavi {
+  position: fixed;
+  top: 0;
+  right: -180px;
+  width: 180px;
+  height: 100%;
+  padding-top: 50px;
+  background: rgba(60, 202, 206, 0.8);
+  font-size: 25px;
+  box-sizing: border-box;
+  z-index: 2
+}
+
+.menuNavi__box {
+  display: flex;
+  flex-direction: column;
+  a{
+    color: #ffffff;
+    padding: 30px 28px 0 28px;
+    margin-top: 10px;
   }
 }

@@ -41,13 +41,14 @@
       = icon('fas', 'bars')
       メニュー
 
--# %nav#menuNavi
--#   =link_to "カテゴリ" , root_path, class:"menuNavi__brand" 
+%nav#menuNavi
+  .menuNavi__box
+    =link_to "カテゴリ" , root_path, class:"menuNavi__category"
 
--#   =link_to "ブランド" , root_path, class:"menuNavi__brand" 
+    =link_to "ブランド" , root_path, class:"menuNavi__brand"
 
--#   - if user_signed_in?
--#     =link_to "マイページ", mypages_path, class:"menuNavi__mypage" 
--#   - else
--#     =link_to "ログイン", new_user_session_path, class:"menuNavi__login" 
--#     =link_to "新規登録", new_user_registration_path, class:"menuNavi__new" 
+    - if user_signed_in?
+      =link_to "マイページ", mypages_path, class:"menuNavi__mypage"
+    - else
+      =link_to "ログイン", new_user_session_path, class:"menuNavi__login"
+      =link_to "新規登録", new_user_registration_path, class:"menuNavi__new"
