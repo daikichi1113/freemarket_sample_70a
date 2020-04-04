@@ -134,17 +134,14 @@ activehashというgemを使ってのプルダウン表示選択機能実装<br>
 モデルの設定（アソシエーション、バリデーション）
 
 # DEMO
-トップページ
+トップページ<br>
 ![demo](https://raw.github.com/wiki/daikichi1113/freemarket_sample_70a/images/demo.gif)
 
-出品
+出品<br>
 ![demo](https://raw.github.com/wiki/daikichi1113/freemarket_sample_70a/images/demo2.gif)
 
-購入
+購入<br>
 ![demo](https://raw.github.com/wiki/daikichi1113/freemarket_sample_70a/images/demo3.gif)
-
-レスポンシブ
-![demo](https://raw.github.com/wiki/daikichi1113/freemarket_sample_70a/images/demo4.gif)
 
 # 開発を通じて得られた知見
 ## 工夫した点
