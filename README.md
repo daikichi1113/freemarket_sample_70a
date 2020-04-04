@@ -43,18 +43,19 @@ Chromeの最新版を利用してアクセスしてください。ただしデ�
 デプロイ、本番環境関連
 
 フロントエンド<br>
-１）トップページ(最終調整)<br>
-<p align="left">
+１）トップページ(最終調整/レスポンシブデザイン)<br>
+<p align="center">
   <img src="app/assets/images/top1.png" width=40%>
   <img src="app/assets/images/top2.png" width=40%>
-</p>
-<p align="left">
+</p><br>
+レスポンシブデザイン
+<p align="center">
   <img src="app/assets/images/top3.png" width=40%>
   <img src="app/assets/images/top4.png" width=40%>  
 </p>
 ２）商品詳細ページ<br>
   購入用アカウントでログイン後、トップページ商品一覧の左上の商品をクリックするとご覧いただけます。
-<p align="left">
+<p align="center">
   <img src="app/assets/images/edit1.png" width=40%>
   <img src="app/assets/images/edit2.png" width=40%>
 </p>
@@ -62,7 +63,7 @@ Chromeの最新版を利用してアクセスしてください。ただしデ�
 サーバーサイド<br>
 １）商品詳細表示<br>
   出品時に登録された商品の情報及び編集ページで変更された商品の情報を商品詳細ページに反映。なお「売れていなければ購入できる」「出品者は購入ができない」「売れていれば購入できない」「ログインしていなければ購入できない」ようになっています。<br>
-<p align="left">
+<p align="center">
   <img src="app/assets/images/edit1.png" width=30%>
   <img src="app/assets/images/edit3.png" width=30%>
   <img src="app/assets/images/edit4.png" width=30%>
